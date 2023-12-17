@@ -1,6 +1,6 @@
 "use server";
 
-import AnimeCard from "../components/AnimeCard"
+import AnimeCard, {AnimeProp} from "../components/AnimeCard"
 
 export const fetchAnime = async (page:number)=>{
 
